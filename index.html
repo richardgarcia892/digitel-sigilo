@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGILO - Servicios</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="brand">SIGILO</a>
+        <div>
+          <a href="#">Acerca de</a>
+          <a href="#">Contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Servicio</th>
+              <th>Nombre de Equipo</th>
+              <th>IPs</th>
+              <th>Puerto</th>
+              <th>F5</th>
+              <th>Plataforma</th>
+              <th>Observación</th>
+            </tr>
+          </thead>
+          <tbody id="serviceTableBody">
+            <!-- Table rows will be dynamically inserted here -->
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="js/services.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
